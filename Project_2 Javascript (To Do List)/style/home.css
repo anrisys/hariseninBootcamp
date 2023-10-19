@@ -1,0 +1,351 @@
+body {
+    padding: 0px;
+    margin: 0;
+}
+
+header {
+    width: 1440px;
+    height: 85px;
+    flex-shrink: 0;
+    background: #03045e;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header__title {
+    color: #f2f2f2;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.account__name {
+    color: #f2f2f2;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.account__avatar {
+    margin-right: 5px;
+}
+
+.account__avatar img {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.account__name {
+    margin-right: 15px;
+}
+
+.empty_card {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 23px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.todo__container,
+.doing__container,
+.done__container {
+    max-width: 420px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    min-height: 146px;
+    padding: 23px;
+    margin-top: 25px;
+}
+
+.todo__container {
+    background: #e968ec;
+}
+
+.container__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.doing__container {
+    background: #77f42a;
+}
+
+.done__container {
+    background: #e86b2c;
+}
+
+.title__text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 16px;
+}
+
+.empty_card {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 23px;
+}
+
+.task__card {
+    max-width: 403px;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    border-radius: 20px;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.task__title,
+.del__val__title,
+.logout,
+.previous__title,
+.form__title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+.logout {
+    font-size: 16px;
+    color: #f2f2f2;
+    border-left: 1px solid #d9d9d9;
+    padding-left: 10px;
+}
+
+.task__deadline,
+.card__actions {
+    display: flex;
+}
+
+.card__actions {
+    margin-top: 5px;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 12px;
+    box-sizing: border-box;
+}
+
+.delete__task,
+.edit__task,
+.add__card,
+.move__task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.deadline__text,
+.deadline__date {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.deadline__text {
+    margin-right: 5px;
+}
+
+.delete__task,
+.edit__task,
+.move__task {
+    flex: 1;
+}
+
+.delete__task,
+.edit__task {
+    border-right: 1px solid #d9d9d9;
+}
+
+.delete__text,
+.edit__text,
+.option__yes,
+.option__no,
+.move__text {
+    color: rgba(30, 30, 30, 0.58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.add__card {
+    margin-top: 18px;
+}
+.add__card:hover {
+    background-color: #f2f2f2;
+}
+
+.add__card__icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.add__card__text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 7px;
+}
+
+.form__container,
+.delete__validation,
+.edit__form {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    min-height: 146px;
+    padding: 23px;
+    background-color: #d9d9d9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit__form {
+    top: 45%;
+    left: 45%;
+}
+
+.delete__validation {
+    width: 403px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #f2f2f2;
+}
+
+.invisible {
+    display: none;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #d9d9d9;
+}
+
+.option__yes,
+.option__no {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option__yes:hover,
+.option__no:hover {
+    background-color: #1e1e1e94;
+    color: #f2f2f2;
+}
+
+.option__yes {
+    color: #fa2f2f;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-right: 1px solid #d9d9d9;
+}
+
+.option__no {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button__submit,
+.submit__new-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.form__edit input,
+#taskForm input {
+    height: 25px;
+    border-radius: 20px;
+}
+.form__edit input[type="text"],
+#taskForm input[type="text"] {
+    padding-left: 15px;
+    font-size: 16px;
+}
+.form__edit input:placeholder-shown,
+#taskForm input:placeholder-shown {
+    padding-left: 15px;
+}
+
+.delete__task:hover,
+.move__task:hover,
+.edit__task:hover {
+    background-color: aqua;
+}
+
+.logout:hover {
+    background-color: #d9d9d9;
+    color: gray;
+    cursor: pointer;
+}
