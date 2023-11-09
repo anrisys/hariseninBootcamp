@@ -53,4 +53,4 @@ The "Holla!" is a platform that allows users to connect, share, and engage with 
     npm run dev
     ```
 
-4.  You will be directed in to Login Page. Then please login with the one account which username and password stated in the accountSample.js file.
+4.  You will be directed in to Login Page. Then please login with one account in accountSample.js file.

@@ -1,4 +1,4 @@
-# GUIDLINES
+# GUIDELINES
 
 ## Description
 
