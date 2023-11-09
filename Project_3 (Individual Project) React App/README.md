@@ -49,4 +49,8 @@ The "Holla!" is a platform that allows users to connect, share, and engage with 
 
 3.  Run the App
 
-    `npm run dev`
+    ```
+    npm run dev
+    ```
+
+4.  You will be directed in to Login Page. Then please login with the one account which username and password stated in the accountSample.js file.
